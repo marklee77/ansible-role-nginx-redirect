@@ -1,17 +1,12 @@
 ---
-owncloud_run_dir: "{{ lookup('env', 'PWD') }}"
-owncloud_root_mysql_password: "{{ lookup('password', owncloud_run_dir + '/credentials/root-mysql-password') }}"
-owncloud_owncloud_mysql_password: "{{ lookup('password', owncloud_run_dir + '/credentials/owncloud-mysql-password') }}"
+nginx_redirect_hostname: localhost
+nginx_redirect_http_port: 80
+nginx_redirect_https_port: 443
+nginx_redirect_enable_ssl: true
 
-owncloud_download_url: http://download.owncloud.org/community/owncloud-6.0.3.tar.bz2
-owncloud_hostname: localhost
-owncloud_http_port: 80
-owncloud_https_port: 443
-owncloud_require_ssl: true
+nginx_redirect_ssl_cert_file: ""
+nginx_redirect_ssl_key_file: ""
 
-owncloud_ssl_cert_file: /etc/ssl/private/owncloud.pem
-owncloud_ssl_key_file: /etc/ssl/private/owncloud.pem
-
-owncloud_admin_username: root
-owncloud_admin_password: password
+nginx_redirect_name: redirect
+nginx_redirect_url: http://google.com
 
