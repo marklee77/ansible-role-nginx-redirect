@@ -15,7 +15,7 @@ Role Variables
 - nginx_redirect_ssl_key_file: ""
 
 - nginx_redirect_name: redirect
-- nginx_redirect_url: http://google.com
+- nginx_redirect_url: http://blog.stillwell.me
 
 Example Playbook
 -------------------------
