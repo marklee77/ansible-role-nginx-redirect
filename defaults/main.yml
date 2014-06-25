@@ -2,7 +2,7 @@
 nginx_redirect_hostname: localhost
 nginx_redirect_http_port: 80
 nginx_redirect_https_port: 443
-nginx_redirect_enable_ssl: true
+nginx_redirect_enable_ssl: false
 
 nginx_redirect_ssl_cert_file: ""
 nginx_redirect_ssl_key_file: ""
