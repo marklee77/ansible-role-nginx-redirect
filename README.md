@@ -1,6 +1,8 @@
 nginx-redirect
 ==============
 
+[![Build Status](https://travis-ci.org/marklee77/ansible-role-nginx-redirect.svg?branch=master)](https://travis-ci.org/marklee77/ansible-role-nginx-redirect)
+
 The purpose of this role is to install nginx redirect sites.
 
 Role Variables
