@@ -1,5 +1,5 @@
-nginx-redirect
-==============
+marklee77.nginx-redirect
+========================
 
 [![Build Status](https://travis-ci.org/marklee77/ansible-role-nginx-redirect.svg?branch=master)](https://travis-ci.org/marklee77/ansible-role-nginx-redirect)
 
@@ -41,5 +41,5 @@ GPLv2
 Author Information
 ------------------
 
-http://marklee77.github.io
+http://stillwell.me
 

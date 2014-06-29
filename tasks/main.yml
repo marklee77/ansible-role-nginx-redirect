@@ -36,6 +36,7 @@
     state: present
   notify:
     - restart nginx
+  when: nginx_redirect_name != "default"
 
 - name: ensure nginx services are started and enabled
   service:
