@@ -20,7 +20,7 @@ Role Variables
 - nginx_redirect_url: http://blog.stillwell.me
 
 Example Playbook
--------------------------
+----------------
 
     - hosts: default
       sudo: True
@@ -28,7 +28,7 @@ Example Playbook
         - marklee77.nginx-redirect
 
 Try it Out
----------------------------
+----------
 
 Check out the github repository, vagrant up, and load http://localhost:8080 in
 your web browser.
